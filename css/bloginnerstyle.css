@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+}
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.navitems a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #394149;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 10px;
+}
+.button a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;   
+    padding: 18px 30px 17px 29px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px; 
+}
+.big{
+    margin-right: 20%;
+    margin-left: 21%;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+.blogpost{
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 80px;
+}
+.profile{
+    display: flex;
+}
+.blog{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.blog h2{
+    margin-top: 20px;
+}
+.blog p{
+    margin-top: 1px;
+}
+footer{
+    background: #063255;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 80px;
+    height: 463px;
+    position: relative;
+}
+.orangeside1{
+    width: 50px;
+    height: 290px;
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+.orangeside2{
+    width: 53px;
+    height: 144px;
+    background: #F58A07;
+    border-top-right-radius: 31px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+}
+footer h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+footer h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+footer a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+footer h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footerleft{
+    width: 30%;
+}
+.email{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    background: #FFFFFF;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+}
+.subs{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 106.5%;    
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 17px 32px 18px 32px;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.pp{
+    padding-right: 20px;
+}
