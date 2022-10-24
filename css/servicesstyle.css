@@ -57,6 +57,7 @@ header{
     flex-direction: column;
     width: 50%;
     padding-top: 150px;
+    margin-right: 50px;
 }
 .headerimg{
     position: relative;
@@ -95,6 +96,10 @@ header a{
 .feature1{
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.f1img{
+    margin-right: 50px;
 }
 .fotext{
     padding-top: 100px;
@@ -139,9 +144,6 @@ header a{
 .f5text{
     padding-top: 100px;
     padding-left: 50px;
-}
-.f1img{
-    position: relative;
 }
 .orange1{
     mix-blend-mode: multiply;

@@ -447,6 +447,10 @@ footer{
     height: 463px;
     position: relative;
 }
+.footerlogo{
+    width: 122px;
+    height: 28px;
+}
 .orangeside1{
     width: 50px;
     height: 290px;
