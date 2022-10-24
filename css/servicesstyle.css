@@ -239,7 +239,7 @@ header a{
     margin-left: 40px;
 }
 .backvideo{
-    background-image: url(/images/video-image.png);
+    background-image: url(../images/video-image.png);
     background-repeat: no-repeat;
     width: 620px;
     height: 500px;

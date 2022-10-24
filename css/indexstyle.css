@@ -37,7 +37,7 @@
     border-radius: 31px; 
 }
 header{
-    background-image: url(/images/header-image.png);
+    background-image: url(../images/header-image.png);
     background-color: #DCEAF5;
     background-repeat: no-repeat;
     background-position: 77%;
@@ -290,7 +290,7 @@ header p{
     width: 100vw;
 }
 .ctaimg{
-    background-image: url(/images/experience-image.png);
+    background-image: url(../images/experience-image.png);
     background-repeat: no-repeat;
     width: 100vw;
 }
@@ -362,7 +362,7 @@ header p{
     margin-left: 40px;
 }
 .backvideo{
-    background-image: url(/images/video-image.png);
+    background-image: url(../images/video-image.png);
     background-repeat: no-repeat;
     width: 620px;
     height: 500px;
