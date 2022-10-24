@@ -25,7 +25,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .button a{
     font-weight: 600;
@@ -96,7 +96,7 @@ header a{
     display: flex;
     justify-content: space-between;
 }
-.f1text{
+.fotext{
     padding-top: 100px;
     padding-left: 50px;
 }
@@ -104,6 +104,7 @@ header a{
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .f2text{
     padding-top: 100px;
@@ -113,6 +114,7 @@ header a{
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .f3text{
     padding-top: 100px;
@@ -122,6 +124,7 @@ header a{
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .f4text{
     padding-top: 100px;
@@ -131,10 +134,14 @@ header a{
     padding-top: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .f5text{
     padding-top: 100px;
     padding-left: 50px;
+}
+.f1img{
+    position: relative;
 }
 .orange1{
     mix-blend-mode: multiply;
@@ -142,9 +149,9 @@ header a{
     background: #F58A07;
     width: 95px;
     height: 97px;
-    position: relative;
+    position: absolute;
     top: 33%;
-    right: 8%;
+    right: 95.9%;
 }
 .orange2{
     mix-blend-mode: multiply;
@@ -152,9 +159,9 @@ header a{
     background: #F58A07;
     width: 95px;
     height: 97px;
-    position: relative;
+    position: absolute;
     top: 33%;
-    left: 92%;
+    left: 95.9%;
 }
 .videosection{
     display: flex;
@@ -232,7 +239,7 @@ header a{
     margin-left: 40px;
 }
 .backvideo{
-    background-image: url(images/video-image.png);
+    background-image: url(/images/video-image.png);
     background-repeat: no-repeat;
     width: 620px;
     height: 500px;
